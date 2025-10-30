@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin:5;
+  padding:0;
+}
+body{
+  background-color:#f4d58d;
+  color:#8d0801;
+  max-width:1920px;
+  margin-inline:auto;
+  font-family: 'Roboto', sans-serif;
+}       
+ 
