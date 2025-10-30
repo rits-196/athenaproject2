@@ -16,8 +16,15 @@ body{
   background-color:#f4d58d;
   color:#8d0801;
   max-width:1920px;
-  margin-inline:auto;
-  font-family: 'Roboto', sans-serif;
+  margin-inline:auto; 
+  font-family: 'Roboto', sans-serif;   
+  body {
+  background-image: url('https://chatgpt.com/s/m_6903b5d7f99c8191a7963b12fa335b75'); 
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center;  
+}
+
 }                                                   
 .hero-image{
   width:50%;
@@ -30,4 +37,4 @@ body{
   aspect-ratio:3/2;
   border-radius:10px;
 
-}                                 
+}                                   
