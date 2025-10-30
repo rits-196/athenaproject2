@@ -6,35 +6,33 @@
   padding:0;
 }
 body{
-    background-image:
-    radial-gradient(circle at 20px 20px, #aa406c 10%, transparent 11%),
-    radial-gradient(circle at 60px 40px, #a94a45 10%, transparent 11%),
-    radial-gradient(circle at 100px 80px, #9b3e97 10%, transparent 11%),
-    radial-gradient(circle at 25px 70px, #963838 10%, transparent 11%);
-  background-size: 120px 120px;
-  background-repeat: repeat;
-  background-color:#f4d58d;
-  color:#8d0801;
-  max-width:1920px;
-  margin-inline:auto; 
-  font-family: 'Roboto', sans-serif;   
-  body {
-  background-image: url('https://chatgpt.com/s/m_6903b5d7f99c8191a7963b12fa335b75'); 
+ 
+  background-image: url('backround.png');
   background-size: cover;
-  background-repeat: no-repeat; 
-  background-position: center;  
+  background-repeat: no-repeat;
+  background-position: center;         
 }
 
-}                                                   
+                                                                 
 .hero-image{
   width:50%;
   aspect-ratio:3/2;
   object-fit:cover;
   border-radius:50px;
-}
+} 
 .info-img{
   width:50%;
   aspect-ratio:3/2;
   border-radius:10px;
 
-}                                   
+}   
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.4); /* white overlay */
+  z-index: -1;
+}                                
