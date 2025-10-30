@@ -5,20 +5,27 @@
   margin:5;
   padding:0;
 }
-body{
- 
-  background-image: url('backround.png');
-  background-size: cover;
+
+
+body {
+  background-image: url('background1.png'); /* fix this name */
+ background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;         
+  background-position: center;
+  background-color: #f4d58d;
+  color: #8d0801;
+  max-width: 1920px;
+  margin-inline: auto;
+  font-family: 'Roboto', sans-serif;
 }
+
 
 .momo-signature-regular {
   font-family: "Momo Signature", cursive;
   font-weight: 400;
   font-style: normal;
 }
-
+ 
                                                                  
 .hero-image{
   width:50%;
@@ -31,7 +38,8 @@ body{
   aspect-ratio:3/2;
   border-radius:10px;
 
-}   
+} 
+/*  
 body::before {
   content: "";
   position: fixed;
@@ -40,25 +48,19 @@ body::before {
   width: 100%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.4); /* white overlay */
-  z-index: -1;
+  /*z-index: -1;
 } 
+*/
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin:5;
-  padding:0;
-}
 
-body{
+/*body{
   background-color:#f4d58d;
   color:#8d0801;
   max-width:1920px;
   margin-inline:auto;
   font-family: 'Roboto', sans-serif;
 }
-
+*/
 header{
   display:flex;
   justify-content:space-between;
