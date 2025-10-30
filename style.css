@@ -13,6 +13,12 @@ body{
   background-position: center;         
 }
 
+.momo-signature-regular {
+  font-family: "Momo Signature", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
                                                                  
 .hero-image{
   width:50%;
@@ -35,4 +41,155 @@ body::before {
   height: 100%;
   background-color: rgba(255, 255, 255, 0.4); /* white overlay */
   z-index: -1;
-}                                
+} 
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin:5;
+  padding:0;
+}
+
+body{
+  background-color:#f4d58d;
+  color:#8d0801;
+  max-width:1920px;
+  margin-inline:auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  display:flex;
+  justify-content:space-between;
+  padding:20px;
+}
+
+.logo{
+  text-transform:uppercase;
+  font-size:24px;
+  font-family: "Teko", sans-serif;
+  
+}
+.nav-link-1{
+  font-size:20px;
+  text-transform:uppercase;
+  text-decoration:none;
+  font-family: 'Teko', sans-serif;
+  color: #000000;
+  border: solid 4px #fff;
+  border-radius: 50px;
+  padding:6px 8px;
+  display:inline-block
+}
+
+.nav-link-2{
+  font-size:20px;
+  text-transform:uppercase;
+  text-decoration:none;
+  font-family: 'Teko', sans-serif;
+  color: #000000;
+  border: solid 4px #fff;
+  border-radius: 50px;
+  padding:6px 8px;
+  display:inline-block
+}
+
+.nav-link-3{
+  font-size:20px;
+  text-transform:uppercase;
+  text-decoration:none;
+  font-family: 'Teko', sans-serif;
+  color: #000000;
+  border: solid 4px #fff;
+  border-radius: 50px;
+  padding:6px 8px;
+  display:inline-block
+
+}
+
+.hero-content-wrapper{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:40px 40px;
+  gap:40px;
+}
+
+.hero-image{
+  width:50%;
+  aspect-ratio:3/2;
+  object-fit:cover;
+  border-radius:50px;
+}
+
+.hero-text{
+  width:50%;
+  font-size:64px;
+  font-family: 'Teko', sans-serif;
+  text-transform:uppercase;
+  text-align:center;
+}
+
+.hero-btn-wrapper{
+  text-align:center;
+  margin-bottom:40px;
+}
+
+.hero-btn{
+  font-size:24px;
+  text-transform:uppercase;
+  text-decoration:none;
+  font-family: 'Teko', sans-serif;
+  text-align:center;
+  color: #fff;
+  border: solid 4px #fff;
+  border-radius: 50px;
+  padding:10px 20px;
+  display:inline-block;
+  
+}
+.hero-btn:hover{
+  background-color:#fff;
+  color:#000000;
+}
+
+.info-content-wrapper{
+  padding:0 40px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:40px;
+}
+
+.reverse{
+  flex-direction:row-reverse;
+}
+
+.info-img{
+  width:50%;
+  aspect-ratio:3/2;
+  border-radius:10px;
+
+}
+
+.info-text{
+  width:50%;
+}
+
+.info-heading{
+  font-family: 'Teko', sans-serif;
+  text-transform:uppercase;
+  font-size:48px;
+  color:#000000;
+  margin-bottom: 20px;
+}
+
+.info-paragraph{
+  font-size:20px;
+  line-height:1.0;
+}
+
+footer{
+  text-align:center;
+}
