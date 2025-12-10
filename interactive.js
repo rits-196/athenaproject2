@@ -2,7 +2,7 @@ const draggables = document.querySelectorAll('.draggable');
 
 draggables.forEach(item => {
   item.addEventListener('mousedown', dragStart);
-});
+});  
 
 function dragStart(e) {
   const element = e.target;
@@ -19,9 +19,9 @@ function dragStart(e) {
   }
 
   document.addEventListener('mousemove', onMouseMove);
-
+ 
   element.onmouseup = function () {
     document.removeEventListener('mousemove', onMouseMove);
     element.onmouseup = null;
   };
-}
+}  
